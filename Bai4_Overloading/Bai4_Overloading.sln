@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bai4_Overloading", "Bai4_Ov
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bai4_OperatorOverloading", "Bai4_OperatorOverloading\Bai4_OperatorOverloading.vcxproj", "{876DD5A2-B966-4566-B3FF-FD4DA4887B19}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bai4_OverloadingCout", "Bai4_OverloadingCout\Bai4_OverloadingCout.vcxproj", "{456EE0E1-6F11-4797-9C61-89EBF4B258E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{876DD5A2-B966-4566-B3FF-FD4DA4887B19}.Release|x64.Build.0 = Release|x64
 		{876DD5A2-B966-4566-B3FF-FD4DA4887B19}.Release|x86.ActiveCfg = Release|Win32
 		{876DD5A2-B966-4566-B3FF-FD4DA4887B19}.Release|x86.Build.0 = Release|Win32
+		{456EE0E1-6F11-4797-9C61-89EBF4B258E5}.Debug|x64.ActiveCfg = Debug|x64
+		{456EE0E1-6F11-4797-9C61-89EBF4B258E5}.Debug|x64.Build.0 = Debug|x64
+		{456EE0E1-6F11-4797-9C61-89EBF4B258E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{456EE0E1-6F11-4797-9C61-89EBF4B258E5}.Debug|x86.Build.0 = Debug|Win32
+		{456EE0E1-6F11-4797-9C61-89EBF4B258E5}.Release|x64.ActiveCfg = Release|x64
+		{456EE0E1-6F11-4797-9C61-89EBF4B258E5}.Release|x64.Build.0 = Release|x64
+		{456EE0E1-6F11-4797-9C61-89EBF4B258E5}.Release|x86.ActiveCfg = Release|Win32
+		{456EE0E1-6F11-4797-9C61-89EBF4B258E5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

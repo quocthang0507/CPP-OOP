@@ -42,6 +42,7 @@ int main()
 	man.SetName("La Quoc Thang");
 	man.SetAge(22);
 	cout << "The man: " << man.GetName() << ", age: " << man.GetAge();
+	return 0; // run ok
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

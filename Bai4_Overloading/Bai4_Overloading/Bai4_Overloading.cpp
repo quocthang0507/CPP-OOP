@@ -8,13 +8,13 @@ using namespace std;
 /// <summary>
 /// Human class
 /// </summary>
-class Human
+class Box
 {
 	string name;
 	int age;
 
 public:
-	Human()
+	Box()
 	{
 		this->name = "Nguyen Van A";
 		this->age = 20;
@@ -25,13 +25,13 @@ public:
 	/// </summary>
 	/// <param name="name">Full name</param>
 	/// <param name="age">Age</param>
-	Human(string name, int age)
+	Box(string name, int age)
 	{
 		this->name = name;
 		this->age = age;
 	}
 
-	~Human()
+	~Box()
 	{
 		// Do something
 		cout << "Deleted object" << endl;
@@ -60,8 +60,8 @@ public:
 
 int main()
 {
-	Human man("La Quoc Thang", 22);
-	Human man1;
+	Box man("La Quoc Thang", 22);
+	Box man1;
 	cout << "The man: " << man.GetName() << ", age: " << man.GetAge() << endl;
 	cout << "The man 1: " << man1.GetName() << ", age: " << man1.GetAge() << endl;
 	return 0;

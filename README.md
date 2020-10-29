@@ -2,7 +2,7 @@
 Object Oriented Programming in C++
 
 ![Giáo trình Lập trình hướng đối tượng C++ - Đặng Ngọc Hoàng Thành](docs/img/cover.png)
-Giáo trình Lập trình hướng đối tượng C++ - Đặng Ngọc Hoàng Thành
+*Giáo trình Lập trình hướng đối tượng C++ - Đặng Ngọc Hoàng Thành*
 
 OOP stands for Object-Oriented Programming.
 
@@ -18,7 +18,7 @@ Object-oriented programming has several advantages over procedural programming:
 *Referecence from [https://www.w3schools.com/cpp/cpp_oop.asp](https://www.w3schools.com/cpp/cpp_oop.asp)*
 
 ![The 4 pillars of Object Oriented Programming](docs/img/four-pillars.png)
-The 4 pillars of Object Oriented Programming
+*The 4 pillars of Object Oriented Programming*
 
 ![Characteristics of an Object Oriented Programming language](docs/img/OOPs-Concepts.jpg)
-Characteristics of an Object Oriented Programming language
+*Characteristics of an Object Oriented Programming language*

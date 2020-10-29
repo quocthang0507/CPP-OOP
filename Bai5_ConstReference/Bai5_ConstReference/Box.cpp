@@ -43,9 +43,3 @@ void Box::Display() const
 {
 	cout << "Height: " << height << ", Breadth: " << breadth << ", Length: " << length << endl;
 }
-
-ostream& operator <<(ostream& os, const Box& box)
-{
-	box.Display();
-	return os;
-}

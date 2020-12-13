@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bai6_Pointer", "Bai6_Pointer.vcxproj", "{3E884611-220C-475D-B672-80B0E6EFA659}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bai6_ThisPointer", "..\Bai6_ThisPointer\Bai6_ThisPointer.vcxproj", "{AA44BCCC-A46B-4361-84AF-A47C9750C44F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{3E884611-220C-475D-B672-80B0E6EFA659}.Release|x64.Build.0 = Release|x64
 		{3E884611-220C-475D-B672-80B0E6EFA659}.Release|x86.ActiveCfg = Release|Win32
 		{3E884611-220C-475D-B672-80B0E6EFA659}.Release|x86.Build.0 = Release|Win32
+		{AA44BCCC-A46B-4361-84AF-A47C9750C44F}.Debug|x64.ActiveCfg = Debug|x64
+		{AA44BCCC-A46B-4361-84AF-A47C9750C44F}.Debug|x64.Build.0 = Debug|x64
+		{AA44BCCC-A46B-4361-84AF-A47C9750C44F}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA44BCCC-A46B-4361-84AF-A47C9750C44F}.Debug|x86.Build.0 = Debug|Win32
+		{AA44BCCC-A46B-4361-84AF-A47C9750C44F}.Release|x64.ActiveCfg = Release|x64
+		{AA44BCCC-A46B-4361-84AF-A47C9750C44F}.Release|x64.Build.0 = Release|x64
+		{AA44BCCC-A46B-4361-84AF-A47C9750C44F}.Release|x86.ActiveCfg = Release|Win32
+		{AA44BCCC-A46B-4361-84AF-A47C9750C44F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

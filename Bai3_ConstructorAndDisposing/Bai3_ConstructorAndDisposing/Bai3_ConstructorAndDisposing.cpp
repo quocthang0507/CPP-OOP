@@ -1,5 +1,7 @@
 // Bai3_ConstructorAndDisposing.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Chúng ta có thể khởi tạo giá trị cho một đối tượng bằng phương thức setter.
+// Một cách đơn giản hơn, chúng ta có thể sử dụng hàm khởi tạo/ phương thức khởi tạo
+// Hàm hủy để thu hòi bộ nhớ, hủy bỏ dữ liệu của các thành viên của nó, phía trước hàm hủy là dấu ~
 
 #include <iostream>
 
@@ -14,7 +16,9 @@ class Human
 	int age;
 
 public:
+	// Phương thức khởi tạo, không có kiểu dữ liệu trả về - tương ứng với kiểu void nhưng lại không dùng từ void vào hàm tạo
 	Human(string, int);
+	// Hàm hủy
 	~Human();
 	void SetName(string);
 	void SetAge(int);

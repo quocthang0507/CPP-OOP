@@ -1,5 +1,6 @@
 // Bai4_OperatorOverloading.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Chồng chất toán tử là cách thức xây dựng các hàm thành viên mà tên gọi của chúng là các toán tử đã được định nghĩa trước đó, ví dụ như: +, -, *, /, =, <, >,...
+// Cấu trúc khai báo như sau: type operator toán_tử(tham_số){thân_hàm}
 
 #include <iostream>
 
@@ -50,6 +51,7 @@ public:
 		this->length = l;
 	}
 
+	// Trong hàm toán tử, cần phải khởi tạo giá trị cho đối tượng trước
 	Box operator + (const Box& b)
 	{
 		Box box;
@@ -79,6 +81,8 @@ int main()
 	box2.SetHeight(10.0);
 
 	Box box3 = box1 + box2;
+	// Hoặc Box box3 = box1.operator+(box2);
+
 	cout << "Box1 with volume: " << box1.GetVolume()<<endl;
 	cout << "Box2 with volume: " << box2.GetVolume() << endl;
 	cout << "Box3 = Box1 + Box2 with volume: " << box3.GetVolume();
